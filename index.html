@@ -6,7 +6,17 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
     <h1>박병준의 홈페이지</h1>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="#intro">내 소개</a></li>
+        <li><a href="study">SW 공부</a></li>
+        <li><a href="project">프로젝트 팀원</a></li>
+    </ul>
+    </nav>
+    <div id="intro">
     <img src="\HTML_Chap02\Images\Curi_01.jpg" width="320">
     <h4>한국폴리텍 성남캠퍼스 인공지능소프트웨어과</h4>
     <h4>전화번호 : 010-8449-3580</h4>
@@ -19,10 +29,12 @@
     <p>
         글자 태그를 배우고 나서 빨리 목록 태그도 배워서 저에 대해서 목록으로 표현을 할 수 있으면 좋겠습니다. 오늘 강의에서 목록 태그를 배우고 나면, 제 홈페이지에 저에 대한 몇가지 사실을 목록 태그를 활용하여 알려드릴께요.
     </p>
+    </div>
     <hr width="100%">
+    <div id="study">
     <h3>지금 SW를 공부하고 있어요</h3>
 
-    <table border="1">
+    <table border="1" style="text-align: center;">
         <caption><b>이번 학기에 배우는 과목</b></caption>
         <thead>
             <tr>
@@ -34,20 +46,33 @@
         <tbody>
             <tr>
                 <td>인터페이스 디자인 실습</td>
-                <td> &#8226; 화 오전10:30 ~ 11:45<br> &#8226; 금 오전9:00 ~ 10:15</td>
+                <td style="text-align: left;">
+                    <ul>
+                        <li>화 오전10:30 ~ 11:45</li>
+                        <li>금 오전9:00 ~ 10:15</li>
+                    </ul>
+                </td>
             <td>웹페이지를 만들기 위한 HTML, CSS, JavaScript</td>
             </tr>
         </tbody>
 
     </table>
+    <ul>
+        <li><a href="https://www.acmicpc.net/user/asd8449"> 나의 BOJ 현황</a></li>
+    <li><a href="https://github.com/asd8449"> 나의 GitHub 현황</a></li>
+    </ul>
     
-    <a href="https://www.acmicpc.net/user/asd8449">&#8226; 나의 BOJ 현황<br></a>
-    <a href="https://github.com/asd8449">&#8226; 나의 GitHub 현황</a>
+    </div>
     <hr width="100%">
+    <div id="project">
     <h3>나랑 같이 프로젝트를 하고 있는 팀원</h3>
-    <a>&#8226; 이국정<br></a>
-    <a>&#8226; 김해준<br></a>
-    <a>&#8226; 박서현<br></a>
-    <a>&#8226; 이승우<br></a>
+    <ul>
+        <li><a>이국정</a></li>
+        <li><a>김해준</a></li>
+        <li><a>박서현</a></li>
+        <li><a>이승우</a></li>
+    </ul>
+    
+    </div>
 </body>
 </html>
