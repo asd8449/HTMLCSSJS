@@ -1,0 +1,17 @@
+h1, h3{
+    color:rgb(8, 8, 114);
+    background-color: lightblue;
+}
+
+.description{
+    color: brown;
+}
+
+#degree{
+    color: red;
+}
+
+center{
+    text-align: center;
+    letter-spacing: 5px;
+}
